@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, arial, sans-serif, 'lucida grande';
+}
+.header{
+    height: 30px;
+	background-image: linear-gradient(0, white, #adad90);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 4px 0 0 0;
+}
+.header-item{
+    margin: 0 8px;
+    position: relative;
+    min-height: 26px;
+}
+a{
+	text-decoration: none;
+	color: #696969;
+}
+p{
+	font-size: 18px;
+}
+a:hover, a:hover p{
+	color: #818753;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+/* Menu */
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.menu img{
+	margin: 0px 15px -20px;
+}
+.menu img:hover{
+	opacity: 0;
+}
+#tiltle{
+    margin-bottom: 20px;
+}
+.sp{
+    width: 285px;
+	margin-left: 20px;
+    float: left;
+    display: block;
+}
+.sale, .sale1{
+    margin-top: 30px;
+    width: 100%;
+    color: slategrey;
+}
+.sale, .sale1 div:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.sale, .sale1 div:nth-child(2){
+    width: 100%;
+    display: inline-flex;
+}
+.layer1 a{
+	width: 23%;
+	margin-top: 37px;
+}
+
+.layer1 a  .ten{
+    display: block;
+    text-align: center;
+}
+.layer1 a  .ten span{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+.footer{
+	margin-top: 40px;
+}
+.about{
+	width: 400px;
+	float: left;
+}
+.about #trai{
+	width: 70px;
+	height: 38px;
+	margin-top: 15px;
+	margin-right: 20px;
+	float: left;
+}
+.about #phai{
+	font-size: 15px;
+	width: 245px;
+	color: #6C6666;
+	float: left;
+}
+.contact{
+	width: 300px;
+	float: left;
+}
+.contact p{
+	font-size: 16px;
+	margin-top: 10px;
+	color: #6C6666;
+}
+.contact span{
+	font-size: 15px;
+	font-weight: bold;
+}
+.link{
+	width: 500px;
+	float: left;
+}
+.link p{
+	font-size: 16px;
+	margin-top: 45px;
+	color: #6C6666;
+}
+hr{
+	margin-bottom: 20px;
+}
+.gioithieu{
+	text-align: center;
+}
